@@ -1,17 +1,23 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: "Rebecca Brimble",
+    siteTitleAlt: `Rebecca Brimble`,
+    siteHeadline: "",
+    siteUrl: "https://rebeccabrimble.com",
+    siteDescription: "TODO: Description",
+    siteLanguage: "en",
+    siteImage: "/banner.jpg",
+    author: "@Becca_Brimble",
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
-      // See the theme's README for all available options
       options: {
         navigation: [
           {
@@ -26,27 +32,21 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/Becca_Brimble`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/rebeccabrimble`,
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
+        name: `Rebecca Brimble`,
+        short_name: `Rebecca Brimble`,
         description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
         start_url: `/`,
         background_color: `#fff`,
@@ -67,7 +67,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify`,
     shouldAnalyseBundle && {
       resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
       options: {
@@ -77,4 +76,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
