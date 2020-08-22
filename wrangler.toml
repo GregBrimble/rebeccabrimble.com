@@ -1,0 +1,10 @@
+name = "rebeccabrimble"
+type = "javascript"
+account_id = "5a883b414d4090a1442b20361f3c43a9"
+zone_id = "7974550a64449477f09e1c528bb34258"
+route = "*rebeccabrimble.com/*"
+workers_dev = false
+
+[site]
+bucket = "./public"
+entry-point = "./workers-site"
