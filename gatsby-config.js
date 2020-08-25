@@ -7,8 +7,8 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 module.exports = {
   siteMetadata: {
     siteTitle: "Rebecca Brimble",
-    siteTitleAlt: `Rebecca Brimble`,
-    siteHeadline: "",
+    siteTitleAlt: "Rebecca Brimble",
+    siteHeadline: "Rebecca Brimble",
     siteUrl: "https://rebeccabrimble.com",
     siteDescription: "TODO: Description",
     siteLanguage: "en",
@@ -47,7 +47,7 @@ module.exports = {
       options: {
         name: `Rebecca Brimble`,
         short_name: `Rebecca Brimble`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: `TODO: Description`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
