@@ -10,9 +10,10 @@ module.exports = {
     siteTitleAlt: "Rebecca Brimble",
     siteHeadline: "Rebecca Brimble",
     siteUrl: "https://rebeccabrimble.com",
-    siteDescription: "TODO: Description",
+    siteDescription:
+      "Rebecca Brimble is an Oxford University graduate (BA Jurisprudence) with a passion for advocacy, policy, and research.",
     siteLanguage: "en",
-    siteImage: "/banner.jpg",
+    siteImage: "/android-chrome-512x512.png",
     author: "@Becca_Brimble",
   },
   plugins: [
@@ -47,7 +48,7 @@ module.exports = {
       options: {
         name: `Rebecca Brimble`,
         short_name: `Rebecca Brimble`,
-        description: `TODO: Description`,
+        description: `Rebecca Brimble is an Oxford University graduate (BA Jurisprudence) with a passion for advocacy, policy, and research.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
