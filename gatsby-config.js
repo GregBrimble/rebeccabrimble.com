@@ -32,10 +32,6 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/Becca_Brimble`,
-          },
-          {
             name: `LinkedIn`,
             url: `https://www.linkedin.com/in/rebeccabrimble`,
           },

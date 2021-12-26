@@ -13,4 +13,4 @@ As well as having a passion for the practice of law in court, I have a passion f
 
 In my spare time, I study foreign languages and I am undertaking courses in history, classics, and literature.
 
-Contact me via <a href="https://twitter.com/Becca_Brimble" target="_blank" rel="noopener noreferrer">Twitter</a>, <a href="https://www.linkedin.com/in/rebeccabrimble/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, or <a href="mailto:law@rebeccabrimble.com" target="_blank" rel="noopener noreferrer">email</a>.
+Contact me via <a href="https://www.linkedin.com/in/rebeccabrimble/" target="_blank" rel="noopener noreferrer">LinkedIn</a> or <a href="mailto:law@rebeccabrimble.com" target="_blank" rel="noopener noreferrer">email</a>.
